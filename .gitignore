@@ -1,0 +1,19 @@
+###> IDE ###
+.idea
+/.idea/
+###< IDE ###
+
+###> symfony/framework-bundle ###
+/api/.env.local
+/api/.env.local.php
+/api/.env.*.local
+/api/config/secrets/prod/prod.decrypt.private.php
+/api/config/secrets/*
+/api/public/bundles/
+/api/var/
+/api/vendor/
+###< symfony/framework-bundle ###
+
+###> symfony/framework-bundle ###
+/front/node_modules
+###< symfony/framework-bundle ###
