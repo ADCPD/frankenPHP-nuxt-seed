@@ -46,7 +46,7 @@ services:
     command: [ "npm", "run", "dev" ]
 
   db:
-    image: mysql:8.4
+    image: mariadb:11.3
     container_name: mysql_db
     restart: always
     environment:
